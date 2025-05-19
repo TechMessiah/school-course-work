@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>West Gate Travel Agency</title>
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/ui.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <div>
+        <h1 class="logo">WestGate Travel Agency</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="places.html">Destinations</a>
+        <a href="team.html">Team</a>
+        <a href="gallery.html">Gallery</a>
+      </nav>
+      <div>
+        <a href="contact-us.html"
+          ><button class="contact-us-btn">Contact Us</button></a
+        >
+      </div>
+    </header>
+    <!-- lander -->
+    <section class="lander">
+      <div class="lander-text" style="width: 50%">
+        <h1>Experience the World in First-Class Comfort.</h1>
+        <p>
+          Whether it’s private jets, five-star accommodations, or personalized
+          itineraries, we make every journey <br />feel majestic.
+        </p>
+      </div>
+      <div class="hero-container">
+        <h1>Hello</h1>
+        <img src="assets/images/hero-img.png" class="hero-img" alt="" />
+      </div>
+    </section>
+    <!-- contact us -->
+    <section class="contact-us">
+      <div class="container">
+        <div class="section-header-centered">
+          <div class="caption">
+            <h1 class="section-title">Leave us a message</h1>
+            <p>
+              An great adventure awaits you. Whether its for something special
+              or just need to disappear for while, we got the perfect trip
+              planned out for you
+            </p>
+          </div>
+        </div>
+
+        <form action="#" method="post">
+          <div class="input-wrapper">
+            <label for="name">Name</label>
+            <input type="text" placeholder="What is your name ?" />
+          </div>
+          <div class="input-wrapper">
+            <label for="name">Email or Tel.</label>
+            <input type="text" placeholder="How can we reach you ?" />
+          </div>
+          <div class="input-wrapper">
+            <label for="name">Message.</label>
+            <textarea rows="4" placeholder="What is on your mind"></textarea>
+          </div>
+          <br /><br />
+          <button class="explore-button">
+            <span>Send Message</span>
+          </button>
+          <br /><br />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="subscribe-section">
+        <h1>Stay in touch</h1>
+        <p style="color: #656565">
+          Subscribe today & catch all the latest travel tips, discounts <br />
+          and more in your inbox
+        </p>
+        <form action="#" method="post">
+          <input type="email" placeholder="Enter Email to subscribe" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="container">
+        <p>
+          Copyright &copy; <span id="currentYear"></span> West Gate. All Rights
+          Reserved.
+        </p>
+        <ul class="quick-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
